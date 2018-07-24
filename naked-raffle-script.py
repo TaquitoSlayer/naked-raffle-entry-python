@@ -15,7 +15,7 @@ https://twitter.com/FunkoFucked
 """
 
 
-catchall = 'pewpw.pw'
+catchall = ''
 country = 'Canada' # straight outta YEG
 i = 50 # number of entries
 
@@ -100,5 +100,5 @@ def raffle_entry():
 for rafflesubmit in range(i):
     raffle_entry()
     r.cookies.clear()
-    time.sleep(4)
+    time.sleep(20)
 
