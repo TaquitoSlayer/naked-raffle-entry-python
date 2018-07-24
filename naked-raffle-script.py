@@ -4,6 +4,16 @@ import re
 import bs4 as bs
 import time
 
+"""
+
+WHERE WERE YOU WHEN FUNKOFUCKED TOOK STOCK
+https://twitter.com/FunkoFucked
+https://twitter.com/FunkoFucked
+https://twitter.com/FunkoFucked
+
+
+"""
+
 
 catchall = 'pewpw.pw'
 country = 'Canada' # straight outta YEG
@@ -79,7 +89,7 @@ def raffle_entry():
         'form[textfield:FhF0pPr4gdHO]': fname,
         'form[textfield:HjWDPHuvQXDW]': lname,
         'form[email:xS8rv0ZpuFDg]': email,
-        'form[dropdown:PzvBvJMvRXrd]': 'Canada',
+        'form[dropdown:PzvBvJMvRXrd]': country,
         'form[landed_at]': '1532468223',
         'form[token]': raffle_token,
     }
