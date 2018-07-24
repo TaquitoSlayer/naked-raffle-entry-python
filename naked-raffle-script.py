@@ -3,6 +3,7 @@ import json
 import re
 import bs4 as bs
 import time
+import calendar
 
 """
 
@@ -90,7 +91,7 @@ def raffle_entry():
         'form[textfield:HjWDPHuvQXDW]': lname,
         'form[email:xS8rv0ZpuFDg]': email,
         'form[dropdown:PzvBvJMvRXrd]': country,
-        'form[landed_at]': '1532468223',
+        'form[landed_at]': '{}'.format(calendar.timegm(time.gmtime())),
         'form[token]': raffle_token,
     }
     raffle_url = 'https://nakedcph.typeform.com/app/form/submit/PABKmQ'
