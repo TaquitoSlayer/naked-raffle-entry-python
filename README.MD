@@ -1,5 +1,5 @@
-make sure you install pip install all them modules
+Make sure you have python 3.x installed then
 
-naked, you make me feel some type of way
+'pip install -r requirements.txt'
 
-no proxy support cause that shit aint even needed - grabrandomproxy() soon or some shit
+naked you make me wanna date a white girl
